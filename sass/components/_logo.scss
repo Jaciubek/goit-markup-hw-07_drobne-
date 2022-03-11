@@ -1,0 +1,14 @@
+.navigation__logo {
+  font-family: $secondary-font;
+  font-weight: bold;
+  font-size: 26px;
+  margin-right: 93px;
+  text-decoration: none;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: $main-color;
+  
+        span {
+          color: $third-color;
+        }
+}

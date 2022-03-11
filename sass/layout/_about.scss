@@ -1,0 +1,40 @@
+.about {
+  margin-top: 94px;
+}
+.about__secound--header {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 50px;
+  line-height: 1.667;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $third-color;
+}
+.about__list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.about__item {
+  position: relative;
+}
+.about__box {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.about__description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}

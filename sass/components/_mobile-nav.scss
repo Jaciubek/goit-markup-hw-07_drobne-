@@ -1,0 +1,19 @@
+.address,
+.navigation__list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+.navigation {
+  display: flex;
+}
+.navigation__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.navigation__item {
+  position: relative;
+}

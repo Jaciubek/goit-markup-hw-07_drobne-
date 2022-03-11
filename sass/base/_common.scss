@@ -1,0 +1,12 @@
+body,h1,h2,h3,h4,h5,h6,p,ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  font-family: $main-font;
+}
+img {
+  display: block;
+}
